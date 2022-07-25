@@ -1,0 +1,25 @@
+.headerStyle {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 0 0 13px #f2f2f2;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px
+}
+
+.headerMenu {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center
+}
+
+.liStyle {
+    padding: 0 20px;
+    font-size: 20px;
+}
